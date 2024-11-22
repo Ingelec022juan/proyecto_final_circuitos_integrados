@@ -1,0 +1,13 @@
+%Warning-UNUSEDSIGNAL: /foss/designs/proyecto_integrados/open_final/src/Timer_PWM_Generator.v:4:22: Signal is not used: 'TMR_SRC'
+                                                                                                  : ... note: In instance 'Timer_PWM_Generator'
+    4 |     input wire [1:0] TMR_SRC,       
+      |                      ^~~~~~~
+                       ... For warning description see https://verilator.org/warn/UNUSEDSIGNAL?v=5.030
+                       ... Use "/* verilator lint_off UNUSEDSIGNAL */" and lint_on around source to disable this message.
+%Warning-UNUSEDSIGNAL: /foss/designs/proyecto_integrados/open_final/src/Timer_PWM_Generator.v:19:16: Signal is not used: 'timer_cnt_normal'
+                                                                                                   : ... note: In instance 'Timer_PWM_Generator'
+   19 |     reg [31:0] timer_cnt_normal;
+      |                ^~~~~~~~~~~~~~~~
+- V e r i l a t i o n   R e p o r t: Verilator 5.030 2024-10-27 rev v5.030
+- Verilator: Built from 0.925 MB sources in 446 modules, into 0.025 MB in 5 C++ files needing 0.000 MB
+- Verilator: Walltime 0.170 s (elab=0.021, cvt=0.019, bld=0.000); cpu 0.081 s on 1 threads; alloced 27.941 MB
